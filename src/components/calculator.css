@@ -15,9 +15,15 @@
 
 .result {
   width: 100%;
-  justify-content: flex-end;
-  color: #fff;
   background-color: #858694;
+  border: none;
+  text-align: end;
+}
+
+.result-text {
+  color: #fff;
+  padding-right: 10px;
+  padding-top: 25px;
 }
 
 .d-flex {

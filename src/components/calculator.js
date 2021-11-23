@@ -8,7 +8,9 @@ class Calculator extends Component {
     console.log(pureFunction);
     return (
       <div className="container">
-        <div className="button result d-flex">0</div>
+        <div className="button result">
+          <p className="result-text">0</p>
+        </div>
         <div className="first-row d-flex">
           <button
             className="button flex-child"
