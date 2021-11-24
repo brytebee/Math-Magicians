@@ -1,24 +1,17 @@
 import { Component } from 'react';
-import PropTypes from 'prop-types';
 import './calculator.css';
 
 /* eslint-disable react/prefer-stateless-function */
 class Calculator extends Component {
   /* eslint-enable react/prefer-stateless-function */
   render() {
-    const { userInput } = this.props;
     return (
       <div className="container">
         <div className="button result">
           <p className="result-text">0</p>
         </div>
         <div className="first-row d-flex">
-          <button
-            className="button flex-child"
-            data-id="AC"
-            type="button"
-            onClick={userInput.clickEvent}
-          >
+          <button className="button flex-child" data-id="AC" type="button">
             AC
           </button>
           <button className="button flex-child" data-id="" type="button">
@@ -102,11 +95,7 @@ class Calculator extends Component {
             .
             {' '}
           </button>
-          <button
-            className="button flex-child operator"
-            data-id=""
-            type="button"
-          >
+          <button className="flex-child operator" data-id="" type="button">
             {' '}
             =
             {' '}
@@ -116,9 +105,5 @@ class Calculator extends Component {
     );
   }
 }
-
-Calculator.propTypes = {
-  userInput: PropTypes.string.isRequired,
-};
 
 export default Calculator;
