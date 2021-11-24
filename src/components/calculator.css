@@ -20,6 +20,7 @@
   background-color: #858694;
   border: none;
   text-align: end;
+  pointer-events: none;
 }
 
 .result-text {
