@@ -1,11 +1,10 @@
-/* eslint-disable react/prop-types, react/prefer-stateless-function */
 import { Component } from 'react';
+import PropTypes from 'prop-types';
 import './calculator.css';
 
 class Calculator extends Component {
   render() {
-    const pureFunction = this.props;
-    console.log(pureFunction);
+    const { pureFunction } = this.props;
     return (
       <div className="container">
         <div className="button result">
@@ -115,5 +114,9 @@ class Calculator extends Component {
     );
   }
 }
+
+Calculator.propTypes = {
+  pureFunction: PropTypes.string.isRequired,
+};
 
 export default Calculator;
