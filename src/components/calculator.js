@@ -95,7 +95,11 @@ class Calculator extends Component {
             .
             {' '}
           </button>
-          <button className="flex-child operator" data-id="" type="button">
+          <button
+            className="button flex-child operator"
+            data-id=""
+            type="button"
+          >
             {' '}
             =
             {' '}
