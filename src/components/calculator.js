@@ -100,7 +100,7 @@ class Calculator extends Component {
             className="button flex-child operator"
             data-id=""
             type="button"
-            buttonName="*"
+            buttonName="x"
             onClick={this.clickHandler.bind(this)}
           >
             x
