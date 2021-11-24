@@ -2,10 +2,7 @@ import { Component } from 'react';
 import './calculator.css';
 import calculate from '../logic/calculate';
 
-/* eslint-disable react/prefer-stateless-function */
 class Calculator extends Component {
-  /* eslint-enable react/prefer-stateless-function */
-
   constructor(props) {
     super(props);
     this.state = {
