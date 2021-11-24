@@ -1,5 +1,7 @@
 import { Component } from 'react';
 import './calculator.css';
+import calculate from '../logic/calculate';
+import operate from '../logic/operate';
 
 /* eslint-disable react/prefer-stateless-function */
 class Calculator extends Component {
@@ -11,7 +13,12 @@ class Calculator extends Component {
           <p className="result-text">0</p>
         </div>
         <div className="first-row d-flex">
-          <button className="button flex-child" data-id="AC" type="button">
+          <button
+            className="button flex-child"
+            data-id="AC"
+            type="button"
+            onClick={operate}
+          >
             AC
           </button>
           <button className="button flex-child" data-id="" type="button">
@@ -99,6 +106,7 @@ class Calculator extends Component {
             className="button flex-child operator"
             data-id=""
             type="button"
+            onClick={calculate}
           >
             {' '}
             =
