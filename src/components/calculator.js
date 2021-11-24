@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import './calculator.css';
 
 /* eslint-disable react/prefer-stateless-function */
-// The above linters is raise because class-based component has been used which is the project requirement
 class Calculator extends Component {
   /* eslint-enable react/prefer-stateless-function */
   render() {
@@ -70,7 +69,8 @@ class Calculator extends Component {
             type="button"
           >
             {' '}
-            -{' '}
+            -
+            {' '}
           </button>
         </div>
         <div className="fourth-row d-flex">
@@ -89,7 +89,8 @@ class Calculator extends Component {
             type="button"
           >
             {' '}
-            +{' '}
+            +
+            {' '}
           </button>
         </div>
         <div className="fifth-row d-flex">
@@ -98,7 +99,8 @@ class Calculator extends Component {
           </button>
           <button className="button flex-child" data-id="" type="button">
             {' '}
-            .{' '}
+            .
+            {' '}
           </button>
           <button
             className="button flex-child operator"
@@ -106,7 +108,8 @@ class Calculator extends Component {
             type="button"
           >
             {' '}
-            ={' '}
+            =
+            {' '}
           </button>
         </div>
       </div>
