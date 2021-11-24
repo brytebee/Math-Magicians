@@ -6,7 +6,7 @@
 
 ## Screenshot
 
-![LeaderBoard](https://user-images.githubusercontent.com/)
+![image](https://user-images.githubusercontent.com/27709832/143310498-3307214b-6229-48b4-9e3a-f044e4194c1b.png)
 
 ## Live Demo
 
