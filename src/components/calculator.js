@@ -142,7 +142,8 @@ class Calculator extends Component {
             onClick={this.clickHandler.bind(this)}
           >
             {' '}
-            -{' '}
+            -
+            {' '}
           </button>
         </div>
         <div className="fourth-row d-flex">
@@ -181,7 +182,8 @@ class Calculator extends Component {
             onClick={this.clickHandler.bind(this)}
           >
             {' '}
-            +{' '}
+            +
+            {' '}
           </button>
         </div>
         <div className="fifth-row d-flex">
@@ -201,7 +203,8 @@ class Calculator extends Component {
             buttonName="."
           >
             {' '}
-            .{' '}
+            .
+            {' '}
           </button>
           <button
             className="button flex-child operator"
@@ -211,7 +214,8 @@ class Calculator extends Component {
             onClick={this.clickHandler.bind(this)}
           >
             {' '}
-            ={' '}
+            =
+            {' '}
           </button>
         </div>
       </div>
