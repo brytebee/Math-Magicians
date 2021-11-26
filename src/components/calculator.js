@@ -17,7 +17,7 @@ const Calculator = () => {
   return (
     <div className="container">
       <div className="button result">
-        <p className="result-text">{obj.total || 0}</p>
+        <p className="result-text">{obj.next || obj.total || 0}</p>
       </div>
       <div className="first-row d-flex">
         <button
