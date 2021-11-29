@@ -40,7 +40,7 @@ Load the page and enjoy!
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/brytebee/Math-Magicians/issues).
+Feel free to check the [issues page](https://github.com/brytebee/Math-Magicians/issues) here 😏😏.
 
 ## Show your support
 
