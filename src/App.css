@@ -5,8 +5,13 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.main {
+  margin: 8.85% 20%;
+  justify-content: space-around;
+}
+
 .container {
-  margin: 8.85% 30%;
+  min-width: 40rem;
 }
 
 .button {
@@ -59,7 +64,7 @@ nav {
 
 .list-items {
   display: flex;
-  width: 50%;
+  width: 30%;
   justify-content: space-around;
   align-items: center;
   list-style: none;
