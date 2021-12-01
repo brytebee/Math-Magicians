@@ -4,7 +4,7 @@ import '../App.css';
 const Nav = () => (
   <nav>
     <Link to="/">
-      <h1>Math Magician</h1>
+      <h1>Math Magicians</h1>
     </Link>
     <ul className="list-items">
       <Link to="/">
