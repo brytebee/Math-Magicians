@@ -3,17 +3,17 @@ import '../App.css';
 
 const Nav = () => (
   <nav>
-    <Link to="/">
+    <Link to="/Math-Magicians/">
       <h1>Math Magicians</h1>
     </Link>
     <ul className="list-items">
-      <Link to="/">
+      <Link to="/Math-Magicians/">
         <li>Home</li>
       </Link>
-      <Link to="/calculator">
+      <Link to="/Math-Magicians/calculator">
         <li>Calculator</li>
       </Link>
-      <Link to="/quote">
+      <Link to="/Math-Magicians/quote">
         <li>Quote</li>
       </Link>
     </ul>

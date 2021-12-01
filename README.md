@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-View the [Live Demo](https://brytebee.github.io/calculator) here ☕
+View the [Live Demo](https://brytebee.github.io/Math-Magicians/) here ☕
 
 ## Built With
 
