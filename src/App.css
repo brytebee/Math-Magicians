@@ -46,6 +46,8 @@
   background-color: #f5913e;
 }
 
+/* links */
+
 nav {
   display: flex;
   min-height: 8vh;
@@ -61,4 +63,19 @@ nav {
   justify-content: space-around;
   align-items: center;
   list-style: none;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* quote */
+
+.content-container {
+  margin: 18.8% 30%;
+}
+
+.content {
+  text-align: center;
 }
