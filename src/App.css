@@ -6,7 +6,7 @@
 }
 
 .container {
-  margin: 10% 30%;
+  margin: 8.85% 30%;
 }
 
 .button {
@@ -44,4 +44,21 @@
 
 .operator {
   background-color: #f5913e;
+}
+
+nav {
+  display: flex;
+  min-height: 8vh;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(48, 54, 56);
+  color: white;
+}
+
+.list-items {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }

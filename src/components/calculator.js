@@ -1,4 +1,4 @@
-import './calculator.css';
+import '../App.css';
 import { useState } from 'react';
 import calculate from '../logic/calculate';
 
