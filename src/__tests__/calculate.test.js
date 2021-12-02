@@ -38,13 +38,17 @@ describe('Calculate function', () => {
   });
 
   // Test '+/-' button
-  test('"+/-" button changes reverse negative/positive number', () => {
+  test('"+/-" button reverses negative/positive number', () => {
     obj = { total: 100, next: null, operation: null };
     buttonName = '+/-';
-    expect(calculate(obj, buttonName)).not.toBe({
-      total: '-100',
-      next: null,
-      operation: null,
-    });
+    console.log(calculate(obj, buttonName));
+    expect(calculate(obj, buttonName)).toStrictEqual({ total: '-100' });
+  });
+
+  // Test '+/-' button
+  test('"+/-" button reverses negative/positive number', () => {
+    obj = { total: -180, next: null, operation: null };
+    buttonName = '+/-';
+    expect(calculate(obj, buttonName)).toStrictEqual({ total: '180' });
   });
 });
