@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test that all components are rendering just fine. Render the Home page. 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="content"
+  >
+    <h1>
+      Home Page
+    </h1>
+    <p>
+      This shall be our temporary Home page
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Test that all components are rendering just fine. Render the Quote page 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="content"
+  >
+    <h1>
+      Quote Page
+    </h1>
+    <p>
+      Our temporary Quote page
+    </p>
+  </div>
+</div>
+`;
