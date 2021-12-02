@@ -41,7 +41,6 @@ describe('Calculate function', () => {
   test('"+/-" button reverses negative/positive number', () => {
     obj = { total: 100, next: null, operation: null };
     buttonName = '+/-';
-    console.log(calculate(obj, buttonName));
     expect(calculate(obj, buttonName)).toStrictEqual({ total: '-100' });
   });
 
