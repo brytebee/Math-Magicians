@@ -22,7 +22,7 @@ const Calculator = () => {
     <div className="main d-flex">
       <p style={font}>Let us do some math</p>
       <div className="container">
-        <div className="button result">
+        <div className="button result" data-id="display">
           <p className="result-text">
             {obj.next || obj.operation || obj.total || 0}
           </p>
@@ -32,7 +32,6 @@ const Calculator = () => {
             className="button flex-child"
             data-id="AC"
             type="button"
-            buttonName="AC"
             onClick={clickHandler}
           >
             AC
@@ -41,7 +40,6 @@ const Calculator = () => {
             className="button flex-child"
             data-id=""
             type="button"
-            buttonName="+/-"
             onClick={clickHandler}
           >
             +/-
@@ -50,7 +48,6 @@ const Calculator = () => {
             className="button flex-child"
             data-id=""
             type="button"
-            buttonName="%"
             onClick={clickHandler}
           >
             %
@@ -59,7 +56,6 @@ const Calculator = () => {
             className="button flex-child operator"
             data-id=""
             type="button"
-            buttonName="÷"
             onClick={clickHandler}
           >
             &#247;
@@ -70,7 +66,6 @@ const Calculator = () => {
             className="button flex-child"
             data-id=""
             type="button"
-            buttonName="7"
             onClick={clickHandler}
           >
             7
@@ -79,7 +74,6 @@ const Calculator = () => {
             className="button flex-child"
             data-id=""
             type="button"
-            buttonName="8"
             onClick={clickHandler}
           >
             8
@@ -88,7 +82,6 @@ const Calculator = () => {
             className="button flex-child"
             data-id=""
             type="button"
-            buttonName="9"
             onClick={clickHandler}
           >
             9
@@ -97,7 +90,6 @@ const Calculator = () => {
             className="button flex-child operator"
             data-id=""
             type="button"
-            buttonName="x"
             onClick={clickHandler}
           >
             x
@@ -108,7 +100,6 @@ const Calculator = () => {
             className="button flex-child"
             data-id=""
             type="button"
-            buttonName="4"
             onClick={clickHandler}
           >
             4
@@ -117,7 +108,6 @@ const Calculator = () => {
             className="button flex-child"
             data-id=""
             type="button"
-            buttonName="5"
             onClick={clickHandler}
           >
             5
@@ -126,7 +116,6 @@ const Calculator = () => {
             className="button flex-child"
             data-id=""
             type="button"
-            buttonName="6"
             onClick={clickHandler}
           >
             6
@@ -135,7 +124,6 @@ const Calculator = () => {
             className="button flex-child operator"
             data-id=""
             type="button"
-            buttonName="-"
             onClick={clickHandler}
           >
             {' '}
@@ -148,7 +136,6 @@ const Calculator = () => {
             className="button flex-child"
             data-id=""
             type="button"
-            buttonName="1"
             onClick={clickHandler}
           >
             1
@@ -157,7 +144,6 @@ const Calculator = () => {
             className="button flex-child"
             data-id=""
             type="button"
-            buttonName="2"
             onClick={clickHandler}
           >
             2
@@ -166,7 +152,6 @@ const Calculator = () => {
             className="button flex-child"
             data-id=""
             type="button"
-            buttonName="3"
             onClick={clickHandler}
           >
             3
@@ -175,7 +160,6 @@ const Calculator = () => {
             className="button flex-child operator"
             data-id=""
             type="button"
-            buttonName="+"
             onClick={clickHandler}
           >
             {' '}
@@ -188,17 +172,11 @@ const Calculator = () => {
             className="button big-child"
             data-id=""
             type="button"
-            buttonName="0"
             onClick={clickHandler}
           >
             0
           </button>
-          <button
-            className="button flex-child"
-            data-id=""
-            type="button"
-            buttonName="."
-          >
+          <button className="button flex-child" data-id="" type="button">
             {' '}
             .
             {' '}
@@ -207,7 +185,6 @@ const Calculator = () => {
             className="button flex-child operator"
             data-id=""
             type="button"
-            buttonName="="
             onClick={clickHandler}
           >
             {' '}
