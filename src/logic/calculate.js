@@ -52,24 +52,20 @@ export default function calculate(obj, buttonName) {
   if (buttonName === '.') {
     if (obj.next) {
       if (obj.next.includes('.')) {
-        return {};
+        return { ...obj };
       }
-      return {
-        next: `${obj.next}.`,
-        total: obj.total,
-        operation: obj.operation,
-      };
+      return { ...obj, next: `${obj.next}.` };
     }
     if (obj.operation) {
-      return { next: '0.', operation: obj.operation, total: obj.total };
+      return { next: '0.' };
     }
     if (obj.total) {
       if (obj.total.includes('.')) {
         return {};
       }
-      return { total: `${obj.total}.`, operation: obj.operation };
+      return { total: `${obj.total}.` };
     }
-    return { next: '0.', operation: obj.operation, total: obj.total };
+    return { total: '0.' };
   }
 
   if (buttonName === '=') {
