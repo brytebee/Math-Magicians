@@ -127,7 +127,8 @@ const Calculator = () => {
             onClick={clickHandler}
           >
             {' '}
-            -{' '}
+            -
+            {' '}
           </button>
         </div>
         <div className="fourth-row d-flex">
@@ -162,7 +163,8 @@ const Calculator = () => {
             onClick={clickHandler}
           >
             {' '}
-            +{' '}
+            +
+            {' '}
           </button>
         </div>
         <div className="fifth-row d-flex">
@@ -176,7 +178,8 @@ const Calculator = () => {
           </button>
           <button className="button flex-child" data-id="" type="button">
             {' '}
-            .{' '}
+            .
+            {' '}
           </button>
           <button
             className="button flex-child operator"
@@ -185,7 +188,8 @@ const Calculator = () => {
             onClick={clickHandler}
           >
             {' '}
-            ={' '}
+            =
+            {' '}
           </button>
         </div>
       </div>
