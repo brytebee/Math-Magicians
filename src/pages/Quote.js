@@ -69,7 +69,7 @@ const Quote = () => {
     },
   ];
 
-  const { content, author } = outData[Math.floor(Math.random() * 12)];
+  const { content, author } = outData[Math.floor(Math.random() * 10)];
   return (
     <div className="content-container">
       <div className="content">
